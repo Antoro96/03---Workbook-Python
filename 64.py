@@ -17,6 +17,6 @@ while line != "":
     if rounding_indicator < PENNIES_PER_NICKEL /2:
         total_cash = total - rounding_indicator /100
     else:
-        total_cash = total + NICKEL - roundig_indicators /100
+        total_cash = total + NICKEL - rounding_indicator /100
 
     print("The cash amount payble is %02f" % total_cash)

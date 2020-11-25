@@ -1,13 +1,12 @@
 line = input("Enter a string: ")
 
-is_palindrome = True
+is_Palindrome = True
 
 for i in range(0, len(line) // 2):
-    if line[i] != line[len(line) - i - 1]:
-        is_palindrome = False
+    if line[i] != line[len(line)-i-1]:
+        is_Palindrome = False
 
-if is_palindrome:
-    print(line, "is a palindrome")
+if is_Palindrome:
+    print("The string is palindrome")   
 else:
-    print(line, "is not a palindrome")
-
+    print("The string is not palindrome") 
